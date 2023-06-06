@@ -17,3 +17,8 @@ while contador < n:
     numero_actual += 1
 
 print("hola mundo")
+
+base = float(input("Ingrese la base del triángulo: "))
+altura = float(input("Ingrese la altura del triángulo: "))
+area = 0.5 * base * altura
+print("El área del triángulo es:", area)
